@@ -27,7 +27,6 @@ namespace Receive
 
                 ChatConnection.QueueConsume(channel, consumer);
 
-
                 Console.WriteLine(" Press [enter] to exit.");
                 Console.ReadLine();
             }
